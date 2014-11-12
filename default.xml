@@ -5,7 +5,7 @@
            review="https://android-review.googlesource.com/" />
   <remote  name="github"
            fetch="https://github.com/" />
-  <default revision="refs/tags/android-5.0.0_r2"
+  <default revision="refs/tags/android-5.0.0_r5"
            remote="aosp"
            sync-c="true"
            sync-f="true"
@@ -44,7 +44,6 @@
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
   <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" clone-depth="1" />
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
@@ -65,6 +64,7 @@
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-12.0" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
@@ -391,7 +391,7 @@
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings" name="SimpleAOSP-Lollipop/platform_packages_apps_Settings" remote="github" revision="L" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
-  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
+  <!-- <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" /> Don't track or build -->
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
