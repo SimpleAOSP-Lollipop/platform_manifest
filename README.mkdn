@@ -17,4 +17,4 @@ lunch simpleaosp_shamu-user
 make otapackage -jx (x being however many cpu jobs)
 
 ##Credits##
-Google for AOSP, Rascarlo and Rastakat for a lot for commits, DariosF and Purity ROM, AOSPAL, AOSPA, CM, DirtyUnicorns, SaberMod, LiquidSmooth, AOKP, SlimRoms, Project D.I.S.C.O. team, AOKP, Others that we may missed, Etc.
+Google for AOSP, Rascarlo and Rastakat for a lot for commits, DariosF and Purity ROM, AOSPAL, AOSPA, CM, DirtyUnicorns, SaberMod, LiquidSmooth, AOKP, SlimRoms, Project D.I.S.C.O. team, AOKP, PartimusPrime for bootanimations, OnmiRom, Others that we may missed, Etc.
