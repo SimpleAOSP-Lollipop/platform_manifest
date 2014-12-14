@@ -7,9 +7,7 @@
            fetch="https://github.com/" />
   <default revision="refs/tags/android-5.0.1_r1"
            remote="aosp"
-           sync-c="true"
-           sync-f="true"
-           sync-j="8" />
+           sync-j="4" />
   <project path="build" name="SimpleAOSP-Lollipop/platform_build" groups="pdk,tradefed" remote="github" revision="L" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
