@@ -15,4 +15,4 @@ mka otapackage
 
 #Credits
 Google for AOSP, Rascarlo and Rastakat for a lot for commits, DariosF and Purity ROM, AOSPAL, AOSPA, CM, DirtyUnicorns, SaberMod, LiquidSmooth
-,AOKP, SlimRoms, Project D.I.S.C.O. team, PartimusPrime for bootanimations, OmniRom, Others that we may missed
+,AOKP, SlimRoms, Project D.I.S.C.O. team, PartimusPrime for bootanimations, OmniRom, Lichti1901, Sykopompos, Others that we may missed
