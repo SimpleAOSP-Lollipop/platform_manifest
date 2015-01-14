@@ -14,5 +14,5 @@ lunch simpleaosp_flo-user, lunch simpleaosp_hammerhead-user, lunch simpleaosp_ma
 mka otapackage
 
 #Credits
-Google for AOSP, Rascarlo and Rastakat for a lot for commits, DariosF and Purity ROM, AOSPAL, AOSPA, CM, DirtyUnicorns, SaberMod, LiquidSmooth
+Google for AOSP, Rascarlo and Rastakat for a lot for commits, Altaf-Mahdi and Euphoria-OS, DariosF and Purity ROM, AOSPAL, AOSPA, CM, DirtyUnicorns, SaberMod, LiquidSmooth
 ,AOKP, SlimRoms, Project D.I.S.C.O. team, PartimusPrime for bootanimations, OmniRom, Lichti1901, Sykopompos, Team Horizon(XenonHD), Others that we may missed
