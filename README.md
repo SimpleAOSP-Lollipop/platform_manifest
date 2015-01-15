@@ -3,7 +3,9 @@ SimpleAOSP Github
 
 Setting up Build Environment
 ---------------------------
-- Please see the [Android source page](http://source.android.com/source/index.html) for building instructions
+- Official build environment as per Google and AOSP [Android source page](http://source.android.com/source/index.html)
+- XDA user guides [Ubuntu 14.04 Trusty LTS](http://forum.xda-developers.com/showthread.php?t=2639611) , [Ubuntu 14.10 Utopic](http://forum.xda-developers.com/chef-central/android/howto-setup-ubuntu-14-10-utopic-unicorn-t2862442)
+- [Arch Linux](https://wiki.archlinux.org/index.php/android#Building_Android)
 
 Initializing the Source
 -----------------------
