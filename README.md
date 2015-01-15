@@ -1,18 +1,63 @@
-#Initialize the source
-repo init -u https://github.com/SimpleAOSP-Lollipop/platform_manifest.git -b L
+SimpleAOSP Github
+===================
 
-#Sync the source
-repo sync -jx -f (x being however many cpu jobs)
+Setting up Build Environment
+---------------------------
+- Please see the [Android source page](http://source.android.com/source/index.html) for building instructions
 
-#Setup build environment
-. build/envsetup.sh
+Initializing the Source
+-----------------------
+(Assuming you have a valid build environment setup)
+- mkdir simpleaosp
+- cd ~/simpleaosp
+- repo init -u https://github.com/SimpleAOSP-Lollipop/platform_manifest.git -b L
 
-#Choose supported device to build
-lunch simpleaosp_flo-user, lunch simpleaosp_hammerhead-user, lunch simpleaosp_mako-user or lunch simpleaosp_shamu-user
+Sync the Source
+---------------
+- repo sync -jx -f (x being however many cpu jobs)
 
-#Build it
-mka otapackage
+Getting Ready to Build
+----------------------
+- . build/envsetup.sh
 
-#Credits
-Google for AOSP, Rascarlo and Rastakat for a lot for commits, Altaf-Mahdi and Euphoria-OS, DariosF and Purity ROM, AOSPAL, AOSPA, CM, DirtyUnicorns, SaberMod, LiquidSmooth
-,AOKP, SlimRoms, Project D.I.S.C.O. team, PartimusPrime for bootanimations, OmniRom, Lichti1901, Sykopompos, Team Horizon(XenonHD), Others that we may missed
+Choose Supported Device to Build
+--------------------------------
+- lunch simpleaosp_flo-user 
+- lunch simpleaosp_hammerhead-user
+- lunch simpleaosp_mako-user
+- lunch simpleaosp_shamu-user
+
+Now Build it
+------------
+- mka otapackage
+
+For Quick Dirty Rebuilds
+------------------------
+- cd ~/simpleaosp
+- repo sync -jx -f (x being however many cpu jobs)
+- lunch and pick the right device (refer to above for choosing right device to build)
+- mka dirty
+- mka otapackage
+
+Credits
+-------
+- Google for AOSP
+- Rascarlo and RastaPop
+- Altaf-Mahdi and Euphoria-OS
+- DariosF and Purity ROM
+- Paranoid Android (AOSPA)
+- AOSPAL
+- CyanogenMod
+- Dirty Unicorns
+- LiquidSmooth
+- AOKP
+- SlimROMS
+- Project D.I.S.C.O. Team
+- PartimusPrime for bootanimations
+- OmniROM
+- Lichti1901 and Terminus
+- Sykopompos
+- Team Horizon and XenonHD
+- Chet and OptiPop
+- VanirAOSP
+- Others we may have missed
