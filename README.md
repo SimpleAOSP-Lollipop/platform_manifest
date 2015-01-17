@@ -62,4 +62,11 @@ Credits
 - Team Horizon and XenonHD
 - Chet and OptiPop
 - VanirAOSP
+- PurifiedROM
+- The-Ancile-Project
+- AOD-Lollibeans
+- Android Open Development
+- Dhacker29
+- beanstown106
+- Ayysir
 - Others we may have missed
