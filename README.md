@@ -25,6 +25,7 @@ Getting Ready to Build
 Choose Supported Device to Build
 --------------------------------
 - lunch simpleaosp_flo-user 
+- lunch simpleaosp_flounder-user
 - lunch simpleaosp_hammerhead-user
 - lunch simpleaosp_mako-user
 - lunch simpleaosp_shamu-user
