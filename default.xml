@@ -509,5 +509,4 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor" name="SimpleAOSP-Lollipop/platform_vendor_proprietary" remote="github" revision="L" />
   <project path="vendor/simpleaosp" name="SimpleAOSP-Lollipop/platform_vendor_simpleaosp" remote="github" revision="L" />
-  
 </manifest>
