@@ -12,7 +12,7 @@ Initializing the Source
 (Assuming you have a valid build environment setup)
 - mkdir simpleaosp
 - cd ~/simpleaosp
-- repo init -u https://github.com/SimpleAOSP-Lollipop/platform_manifest.git -b L
+- repo init -u https://github.com/SimpleAOSP-Lollipop/platform_manifest.git -b layers
 
 Sync the Source
 ---------------
@@ -70,4 +70,5 @@ Credits
 - Dhacker29
 - beanstown106
 - Ayysir
+- BitSyko Development
 - Others we may have missed
