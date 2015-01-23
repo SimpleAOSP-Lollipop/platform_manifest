@@ -8,7 +8,7 @@
   <default revision="refs/tags/android-5.0.2_r1"
            remote="aosp"
            sync-j="4" />
-  <project path="build" name="SimpleAOSP-Lollipop/platform_build" groups="pdk,tradefed" remote="github" revision="L" >
+  <project path="build" name="SimpleAOSP-Lollipop/platform_build" groups="pdk,tradefed" remote="github" revision="layers" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -275,7 +275,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="SimpleAOSP-Lollipop/platform_frameworks_base" groups="pdk-cw-fs" remote="github" revision="L" />
+  <project path="frameworks/base" name="SimpleAOSP-Lollipop/platform_frameworks_base" groups="pdk-cw-fs" remote="github" revision="layers" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -284,7 +284,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="SimpleAOSP-Lollipop/platform_frameworks_native" groups="pdk" remote="github" revision="L" />
+  <project path="frameworks/native" name="SimpleAOSP-Lollipop/platform_frameworks_native" groups="pdk" remote="github" revision="layers" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
@@ -393,7 +393,7 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/ScreenRecorder" name="SimpleAOSP-Lollipop/platform_packages_apps_ScreenRecorder" remote="github" revision="L" />
-  <project path="packages/apps/Settings" name="SimpleAOSP-Lollipop/platform_packages_apps_Settings" remote="github" revision="L" />
+  <project path="packages/apps/Settings" name="SimpleAOSP-Lollipop/platform_packages_apps_Settings" remote="github" revision="layers" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <!-- <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" /> Don't track or build -->
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -506,5 +506,5 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor" name="SimpleAOSP-Lollipop/platform_vendor_proprietary" remote="github" revision="L" />
-  <project path="vendor/simpleaosp" name="SimpleAOSP-Lollipop/platform_vendor_simpleaosp" remote="github" revision="L" />
+  <project path="vendor/simpleaosp" name="SimpleAOSP-Lollipop/platform_vendor_simpleaosp" remote="github" revision="layers" />
 </manifest>
