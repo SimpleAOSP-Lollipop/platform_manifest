@@ -1,28 +1,28 @@
 SimpleAOSP Github
 ===================
 
-Setting up Build Environment
+Setting up build environment
 ---------------------------
 - Official build environment as per Google and AOSP [Android source page](http://source.android.com/source/index.html)
 - XDA user guides [Ubuntu 14.04 Trusty LTS](http://forum.xda-developers.com/showthread.php?t=2639611) , [Ubuntu 14.10 Utopic](http://forum.xda-developers.com/chef-central/android/howto-setup-ubuntu-14-10-utopic-unicorn-t2862442)
 - [Arch Linux](https://wiki.archlinux.org/index.php/android#Building_Android)
 
-Initializing the Source
+Initializing the source
 -----------------------
 (Assuming you have a valid build environment setup)
 - mkdir simpleaosp
 - cd ~/simpleaosp
 - repo init -u https://github.com/SimpleAOSP-Lollipop/platform_manifest.git -b L
 
-Sync the Source
+Sync the source
 ---------------
 - repo sync -jx -f (x being however many cpu jobs)
 
-Getting Ready to Build
+Getting ready to build
 ----------------------
 - . build/envsetup.sh
 
-Choose Supported Device to Build
+Choose supported device to build
 --------------------------------
 - lunch simpleaosp_flo-user 
 - lunch simpleaosp_flounder-user
@@ -30,11 +30,11 @@ Choose Supported Device to Build
 - lunch simpleaosp_mako-user
 - lunch simpleaosp_shamu-user
 
-Now Build it
+Now build it
 ------------
 - mka otapackage
 
-For Quick Dirty Rebuilds
+For quick dirty rebuilds
 ------------------------
 - cd ~/simpleaosp
 - repo sync -jx -f (x being however many cpu jobs)
