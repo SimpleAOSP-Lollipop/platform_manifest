@@ -67,7 +67,10 @@ Credits
 - The-Ancile-Project
 - AOD-Lollibeans
 - Android Open Development
+- Nameless ROM
+- Cristiano Matos
 - Dhacker29
 - beanstown106
 - Ayysir
+- Translators
 - Others we may have missed
