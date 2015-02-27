@@ -365,8 +365,8 @@
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
+  <project path="packages/apps/Contacts" name="SimpleAOSP-Lollipop/platform_packages_apps_Contacts" remote="github" revision="L" />
+  <project path="packages/apps/ContactsCommon" name="SimpleAOSP-Lollipop/platform_packages_apps_ContactsCommon" remote="github" revision="L" />
   <project path="packages/apps/DeskClock" name="SimpleAOSP-Lollipop/platform_packages_apps_DeskClock" remote="github" revision="L" />
   <project path="packages/apps/Dialer" name="SimpleAOSP-Lollipop/platform_packages_apps_Dialer" remote="github" revision="L" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
