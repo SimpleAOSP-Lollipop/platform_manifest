@@ -50,6 +50,7 @@
   <project path="device/moto/shamu" name="SimpleAOSP-Lollipop/platform_device_moto_shamu" groups="device,shamu" remote="github" revision="L" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
+  <project path="device/samsung/manta" name="SimpleAOSP-Lollipop/platform_device_samsung_manta" groups="device,manta" remote="github" revision="L" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
