@@ -28,6 +28,7 @@ Choose supported device to build
 - lunch simpleaosp_flounder-user
 - lunch simpleaosp_hammerhead-user
 - lunch simpleaosp_mako-user
+- lunch simpleaosp_manta-user
 - lunch simpleaosp_shamu-user
 
 Now build it
