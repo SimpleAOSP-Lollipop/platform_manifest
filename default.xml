@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch=".." />
+   <remote  name="aosp"
+           fetch="https://android.googlesource.com/"
+	   review="https://android-review.googlesource.com/" />
+  <remote  name="github"
+           fetch="https://github.com/" />
   <default revision="refs/tags/android-5.1.0_r1"
            remote="aosp"
            sync-j="4" />
@@ -509,6 +512,7 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-
+  <project path="vendor" name="SimpleAOSP-Lollipop/platform_vendor_proprietary" remote="github" revision="L-5.1" />
+  <project path="vendor/simpleaosp" name="SimpleAOSP-Lollipop/platform_vendor_simpleaosp" remote="github" revision="L-5.1" />
 </manifest>
 
