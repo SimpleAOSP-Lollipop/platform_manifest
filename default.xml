@@ -6,7 +6,7 @@
 	   review="https://android-review.googlesource.com/" />
   <remote  name="github"
            fetch="https://github.com/" />
-  <default revision="refs/tags/android-5.1.0_r1"
+  <default revision="refs/tags/android-5.1.0_r3"
            remote="aosp"
            sync-j="4" />
 
